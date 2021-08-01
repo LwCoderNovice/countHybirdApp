@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="form-count">
+    <div class="row form-group">
+      <div class="col-6">
+        <label for="" class="form-label">开始时间</label>
+        <app-datepicker #start ></app-datepicker>
+      </div>
+      <div class="col-6">
+        <label for="" class="form-label">结束时间</label>
+        <app-datepicker #end ></app-datepicker>
+      </div>
+    </div>
+    <div class="row form-group">
+        <div class="col-12">
+        <label for="" class="col-3 col-form-label">水位： </label>
+        <input class="col-9" type="text" [(ngModel)]="waterLevel" placeholder="水位" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <button type="button" (click)="calculate()" class="btn btn-primary col-12">
+          计算
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="statistics">
+    <p><span class="label">所用时间:</span>  {{timediff}}</p>
+    <p><span class="label">水量: </span> {{watercounts}}</p>
+    <p><span class="label">总计费用: </span><span class="price"> {{counts}}</span></p>
+  </div>
+</div>

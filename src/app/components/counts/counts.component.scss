@@ -1,0 +1,31 @@
+input {
+  border: 1px solid #efefef;
+  width: 240px;
+  margin-bottom: 10px;
+}
+.form-count {
+  padding-top: 30px;
+
+  .form-label {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #595959;
+  }
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.statistics {
+  border-top: 1px solid #595959;
+  margin-top: 15px;
+  padding-top: 15px;
+  .label {
+    color: #1a1a1a;
+    font-weight: 600;
+  }
+  .price {
+    color: #f52918;
+    font-size: 18px;
+  }
+}

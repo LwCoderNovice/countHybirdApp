@@ -1,0 +1,20 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>水费计算</title>
+  <meta name="viewport" content="maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, initial-scale=1.0, width=device-width" />
+  <meta name="format-detection" content="telephone=no, email=no, date=no, address=no">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="../css/styles.css"></head>
+<body>
+    <header>水费计算器</header>
+  <app-root></app-root>
+</body>
+<script src="../script/runtime.js" defer></script>
+<script src="../script/polyfills.js" defer></script>
+<script src="../script/vendor.js" defer></script>
+<script src="../script/main.js" defer></script>
+<script type="text/javascript" src="../script/api.js"></script>
+</html>
